@@ -1,0 +1,2 @@
+#ErrorDocument 404 http://localhost:88/worterbuch/404page.html
+ErrorDocument 404 http://www.worterbuch.tk/404page.html
