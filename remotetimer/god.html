@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>God mode</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <script src="https://kit.fontawesome.com/a18cbd3810.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="list"></div>
+    <script>
+        const api = './api.php';
+        var c = 0;
+        var result = '';
+        function update() {
+            fetch(api + '?all=').then(function (response) {
+                return response.json()
+            }).then(function (json) {
+                result = '<table>';
+                for (var i = 0; i < json.timers.length; i++) {
+                    result += '<tr><td>' + json.timers[i].name
+                        + '</td><td>' + json.timers[i].time
+                        + '</td><td><a href="control.php?id=' + json.timers[i].token + '" target="_blank">link</a>'
+                        + '</td></tr>';
+                }
+                result += '</table>';
+            }).catch(function (error) {
+                result = 'error';
+            })
+            document.getElementById('list').innerHTML = result;
+        }
+        setInterval(update, 1000);
+    </script>
+</body>
+
+</html>

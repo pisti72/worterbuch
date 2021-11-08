@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="remotetimer_logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="369.51452"
+     inkscape:cy="846.95423"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="824"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3748"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Chandas;-inkscape-font-specification:Chandas;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.51715597,0,0,0.51715597,-34.661752,-65.26827)"><flowRegion
+         id="flowRegion3750"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Chandas;-inkscape-font-specification:Chandas"><rect
+           id="rect3752"
+           width="309.10672"
+           height="72.730965"
+           x="145.46196"
+           y="233.58545"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Chandas;-inkscape-font-specification:Chandas" /></flowRegion><flowPara
+         id="flowPara3754"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times Sans Serif';-inkscape-font-specification:'Times Sans Serif';fill:#483e37">Remotetimer</flowPara></flowRoot>    <path
+       style="fill:#d40000;stroke:none;stroke-width:0.07156579px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 16.852136,54.90582 c 3.799307,0.99984 7.316606,0.02863 10.311757,-0.144585 9.740642,-0.563334 13.207343,10.131138 4.192956,12.651165 4.77597,1.731429 5.45248,5.216909 5.383214,8.403457 -2.928625,-0.0033 -4.88572,-0.05558 -8.697764,-0.0088 0.15479,-3.466003 0.689168,-4.769482 -3.480931,-8.611563 8.232979,-4.624607 1.348446,-10.030702 -1.012094,-8.313623 -2.36054,1.717079 0.279254,14.062958 3.144718,16.952561 l -9.131336,-0.0062 c -0.90551,-6.15e-4 -6.085883,-19.161306 -0.71052,-20.922412 z"
+       id="path3762"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccczcsc" />
+    <flowRoot
+       transform="matrix(0.51715597,0,0,0.51715597,-34.661752,-29.284914)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Chandas;-inkscape-font-specification:Chandas;letter-spacing:0px;word-spacing:0px;fill:#e3dedb;fill-opacity:1;stroke:none;"
+       id="flowRoot842"
+       xml:space="preserve"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Chandas;-inkscape-font-specification:Chandas;fill:#e3dedb;"
+         id="flowRegion838"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Chandas;-inkscape-font-specification:Chandas;fill:#e3dedb;"
+           y="233.58545"
+           x="145.46196"
+           height="72.730965"
+           width="309.10672"
+           id="rect836" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times Sans Serif';-inkscape-font-specification:'Times Sans Serif';fill:#e3dedb;"
+         id="flowPara840">Remotetimer</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cscccczcsc"
+       inkscape:connector-curvature="0"
+       id="path844"
+       d="m 16.852136,90.889176 c 3.799307,0.99984 7.316606,0.02863 10.311757,-0.144585 9.740642,-0.563334 13.207343,10.131139 4.192956,12.651179 4.77597,1.73144 5.45248,5.21694 5.383214,8.40351 -2.928625,-0.003 -4.88572,-0.0556 -8.697764,-0.009 0.15479,-3.46603 0.689168,-4.76951 -3.480931,-8.61161 8.232979,-4.624627 1.348446,-10.030722 -1.012094,-8.313643 -2.36054,1.717079 0.279254,14.063003 3.144718,16.952623 l -9.131336,-0.006 c -0.90551,-6.1e-4 -6.085883,-19.161368 -0.71052,-20.922474 z"
+       style="fill:#d40000;stroke:none;stroke-width:0.07156579px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

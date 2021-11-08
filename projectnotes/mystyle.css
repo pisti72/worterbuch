@@ -1,0 +1,13 @@
+.note {
+  background-image: url("paper.png");
+  background-color: #faeb9d;
+  }
+  
+.project {
+  background-color: #ccc;
+  cursor: pointer;
+  }
+  
+#login, #notes, #sign-up, #projects{
+  display: none;
+}

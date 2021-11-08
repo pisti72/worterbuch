@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remotetimer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Remotetimer provides a full screen timer page which can be controlled by another page.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174188394-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-174188394-1');
+    </script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <div class="w3-bar w3-left-align w3-small" style="box-shadow: 0px 10px 5px #DDD;">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">
+            <img src="assets/remotetimer_logo_black.svg" height="50px">
+        </a>
+        <div class="w3-bar-item w3-right w3-padding-large" title="My Account" id="login">
+            <button class="w3-button w3-round" onclick="newuser()" id="join">Join</button>
+            <span id="logged_user">You are not logged in</span>
+        </div>
+    </div>
+
+    <!--Registration sheet-->
+    <div id="newuser" class="w3-container w3-padding-large w3-half w3-display-middle">
+        <div class="w3-card-4">
+            <div class="w3-container w3-green">
+                <h2>New user registration form</h2>
+            </div>
+
+            <div class="w3-container w3-padding-large">
+                <p>
+                    <label>User name:</label>
+                    <input class="w3-input w3-border w3-round" type="text" id="name">
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input class="w3-input w3-border w3-round" type="email" id="email">
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input class="w3-input w3-border w3-round" type="password" id="password">
+                </p>
+                <button class="w3-button w3-blue w3-padding w3-round" onclick="register()">Register</button>
+                <button class="w3-button w3-blue w3-padding w3-round" onclick="cancel()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Login sheet-->
+    <div id="loginuser" class="w3-container w3-padding-large w3-half w3-display-middle">
+        <div class="w3-card-4">
+            <div class="w3-container w3-green">
+                <h2>Login</h2>
+            </div>
+
+            <div class="w3-container w3-padding-large">
+                <p>
+                    <label>User name or email</label>
+                    <input class="w3-input w3-border w3-round" type="text" id="name2">
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input class="w3-input w3-border w3-round" type="password" id="password2">
+                </p>
+                <p class="w3-panel w3-red" id="invalid_login">
+                    Wrong user name or password
+                </p>
+                <button class="w3-button w3-blue w3-padding w3-round" onclick="login2()">Login</button>
+
+                <!--
+                <button class="w3-button w3-blue w3-padding w3-round" onclick="cancel()">Cancel</button>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-container" id="dashboard">
+        <h1>My timers</h1>
+        <div id="timers"></div>
+    </div>
+
+    <div class="w3-hide">
+        <div id="card_template" class="w3-card-4 w3-margin w3-left" style="width:25%">
+            <div class="w3-container w3-blue">
+                <h2>Header</h2>
+            </div>
+            <div class="w3-container">
+                <p>Here comes the link</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+
+</html>

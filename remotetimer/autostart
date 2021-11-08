@@ -1,0 +1,15 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+@xset s off
+@xset s noblank
+@xset -dpms
+#Hide mouse cursor
+#@unclutter -idle 0
+#@chromium-browser --noerrdialogs --disable-infobars --incognito --kiosk https://remotetimer.eu/timer.php?id=P3LSCD9R4MWGACHC
+#@chromium-browser --noerrdialogs --disable-infobars --incognito --kiosk https://remotetimer.eu/timer.php?id=TESZT
+@firefox-esr --kiosk --private-window https://remotetimer.eu/timer.php?id=TESZT
+
+
+
